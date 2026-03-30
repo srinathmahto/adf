@@ -1,0 +1,135 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfpractice0073"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_CSV1_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_FOLDER_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_INDUSTRY_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_SINK_FOLDER_accountKey": {
+			"value": ""
+		},
+		"LS_INPUT2603_accountKey": {
+			"value": ""
+		},
+		"LS_MOVIES_accountKey": {
+			"value": ""
+		},
+		"LS_OUTPUT3003_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET1_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDB_password": {
+			"value": ""
+		},
+		"L_CSVSINK_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV1_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV_FOLDER_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV_INDUSTRY_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV_SINK_FOLDER_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"LS_INPUT2603_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_MOVIES_properties_typeProperties_url": {
+			"value": "https://adfbulkload.dfs.core.windows.net/"
+		},
+		"LS_OUTPUT3003_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"LS_PARQUET1_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"LS_SQLDB_properties_typeProperties_server": {
+			"value": "SRINATH\\SQLEXPRESS"
+		},
+		"LS_SQLDB_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SQLDB_properties_typeProperties_userName": {
+			"value": "srinath_mahto"
+		},
+		"L_CSVSINK_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "SRINATH\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "srinath_mahto"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
