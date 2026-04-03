@@ -59,6 +59,15 @@
 		"SqlServer1_password": {
 			"value": ""
 		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adfbulksink.dfs.core.windows.net/"
 		},
@@ -124,6 +133,21 @@
 		},
 		"SqlServer1_properties_typeProperties_userName": {
 			"value": "srinath_mahto"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "SRINATH\\SQLEXPRESS"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "srinath_mahto"
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adfbulksink.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
