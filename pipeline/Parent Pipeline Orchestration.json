@@ -42,9 +42,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('LKUP_SQLTABLE_WATERMARK_DW').output",
+						"value": "@activity('LKUP_SQLTABLE_WATERMARK_DW').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "EXEC_SQL_INCREMENTAL_PIPELINE",

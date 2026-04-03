@@ -1,0 +1,35 @@
+{
+	"name": "DelimitedText3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage6",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Table_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "Table_Name = @pipeline().parameters.TableName",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat(dataset().Table_Name, '/', formatDateTime(utcNow(),'yyyy/MM/dd'))",
+					"type": "Expression"
+				},
+				"fileSystem": "projectsink"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
