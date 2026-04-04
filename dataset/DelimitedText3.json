@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "Table_Name = @pipeline().parameters.TableName",
+					"value": "@dataset().Table_Name",
 					"type": "Expression"
 				},
 				"folderPath": {
